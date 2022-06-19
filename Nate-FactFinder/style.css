@@ -1,0 +1,117 @@
+/*
+https://coolors.co/fc9f5b-fbd1a2-ece4b7-7dcfb6-33ca7f
+https://coolors.co/e2dbbe-d5d6aa-9dbbae-769fb6-188fa7
+https://coolors.co/7e6551-938581-466362-8896ab-c5d5e4
+https://coolors.co/3066be-119da4-6d9dc5-80ded9-aeecef
+https://coolors.co/a30015-bd2d87-d664be-df99f0-b191ff
+*/
+main{
+	border: 5px solid black;
+	display: grid;
+	width: 800px;
+	height: 850px;
+	grid-template-rows:100px auto;
+	
+}
+#factDisplay{
+	padding:6px;
+	border:5px solid red;
+	color:goldenRod;
+	max-height:auto;
+	font-size:43px;
+	background-color:Beige;
+}
+form{
+	padding:12px;
+	border: 5px solid tomato;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	background-color:black;
+}
+body{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+#January{
+	max-width:100%;
+	max-height:100%;
+	height:300px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:auto;
+}
+#Zoo{
+	max-width:100%;
+	max-height:100%;
+	height:300px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:auto;
+	
+}
+#Dolphins{
+	max-width:100%;
+	max-height:100%;
+	height:300px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:auto;
+}
+#Olympics{
+	max-width:100%;
+	max-height:100%;
+	height:300px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:auto;
+}
+#canadaFlag{
+	max-width:100%;
+	max-height:100%;
+	height:300px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:auto;
+}
+input[name = "b"]{
+	margin: 0px 7px;
+	border-radius:50%;
+	background-color:#990000;
+}
+input[name = "c"]{
+	margin: 0px 7px;
+	border-radius:50%;
+	background-color:#990000;
+}
+input[name = "d"]{
+	margin: 0px 7px;
+	border-radius:50%;
+	background-color:#990000;
+}
+input[name = "e"]{
+	margin: 0px 7px;
+	border-radius:50%;
+	background-color:#990000;
+}
+input[name = "a"]{
+	margin: 0px 7px;
+	border-radius:50%;
+	background-color:#990000;
+}
+
+input[name = "a"]:hover{
+	background-color:gray;
+}
+input[name = "b"]:hover{
+	background-color:gray;
+}
+input[name = "c"]:hover{
+	background-color:gray;
+}
+input[name = "d"]:hover{
+	background-color:gray;
+}
+input[name = "e"]:hover{
+	background-color:gray;
+}
